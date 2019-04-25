@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Graphik Regular';
+    src: url('../fonts/Graphik-400-Regular.otf');
+}
+@font-face {
+    font-family: 'Graphik Medium';
+    src: url('../fonts/Graphik-500-Medium.otf');
+}
+@font-face {
+    font-family: 'Graphik Bold';
+    src: url('../fonts/Graphik-700-Bold.otf');
+}
+
+
+@font-face {
+    font-family: 'SF Compact Display';
+    src: url('../fonts/SF-Compact-Display-Bold.otf');
+}
+
+body{
+    background: #ffffff; 
+    font-family: 'Graphik Regular';
+}
+
+li.nav-item a{
+    font-family: 'Graphik Medium';
+    color: rgba(53, 59, 80, 1);
+    text-transform: uppercase;
+
+}
+.sparta-form label{
+    font-size: 14px !important;
+    color: #222222;
+    font-size: 20px;
+}
+
+.sparta-form input{
+    border: 1px solid rgba(53, 59, 80, 0.1);
+    color: #222222;
+    background: #F1F1F1;
+    font-size: 14px !important;
+    box-shadow: none;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sparta-form input:focus{
+    border-color: #353B50;
+    box-shadow: none;
+    outline: none;
+}
+button.btn.add-card{
+    margin-top: 20px;
+    border-radius: 3px;
+    background: #3F67E9;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0px;
+    outline: none;
+}
+
+button.btn.payment{
+    border-radius: 3px;
+    background: #3F67E9;
+    color: #ffffff;
+    font-family: 'Graphik Medium';
+    font-size: 18px;
+    line-height: normal;
+    text-align: center;
+    padding: 10px 30px;
+    box-shadow: 0px;
+    outline: none;
+}
+
+.master-card{
+    width: 425.81px;
+    height: 278.71px;
+    background: url(../img/mastercardlogo.svg) 90% 90% no-repeat, linear-gradient(55deg, rgba(255, 82, 33, 1),rgba(63, 103, 233, 1));
+    border-radius: 5px;
+}
+.furry h6{
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Graphik Medium';
+    font-size: 23px !important; 
+}
+.furry p{
+    font-family: 'Graphik Regular';
+    font-size: 14px !important;
+    color: rgba(170, 176, 187, 1);
+}
+
+.content label{
+    font-family: 'SF Compact Display';
+    text-transform: uppercase;
+    font-size: 12px !important;
+    letter-spacing: 0.75px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.content p{
+    color: #ffffff;
+    font-size: 15px !important;
+    letter-spacing: 0.75px;
+    font-weight: bold;
+}
+.spread{
+    padding: 20px;
+}
+.direct{
+    display: inline-flex;
+    width: 100%;
+    min-height: 27px;
+    margin-bottom: 20px;
+}
+
+.direct h6{
+    font-family: 'Graphik Medium';
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+span.ans{
+    margin-left: auto;
+    color: rgba(34, 34, 34, 1);
+    font-family: 'Graphik Medium';
+    font-size: 18px !important;
+}
+
+span.code{
+    color: rgba(173, 179, 189, 1);
+}
+h6.complete{
+    color: rgba(34, 34, 34, 1);
+    font-size: 24px;
+    font-family: 'Graphik Bold';
+}
+
+/* Custome Check Box */
+/* The my-check */
+.my-check {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    /* margin-bottom: 12px; */
+    cursor: pointer;
+    font-size: 14px !important;
+    color: rgba(34, 34, 34, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .my-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    margin-top: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .my-check:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .my-check input:checked ~ .checkmark {
+    background-color: rgba(63, 103, 233, 1);
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .my-check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .my-check .checkmark:after {
+    left: 4.5px;
+    top: 4.4px;
+    width: 5px;
+    height: 5px;
+    border: solid white;
+    background: white;
+    border-radius: 50%;
+  }
